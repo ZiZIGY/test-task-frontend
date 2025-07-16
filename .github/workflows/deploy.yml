@@ -2,9 +2,9 @@ name: Сборка и деплой
 
 on:
   push:
-    branches: [main]
+    branches: [feature/wardrobe-task]
   pull_request:
-    branches: [main]
+    branches: [feature/wardrobe-task]
   workflow_dispatch:
 
 jobs:
